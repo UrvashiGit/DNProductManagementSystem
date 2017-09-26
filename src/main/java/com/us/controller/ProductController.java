@@ -71,7 +71,7 @@ public class ProductController {
 
 	}
 	
-	// update product from Urvashi ----- new commit
+	// update product from Urvashi ***** from hiral
 	@RequestMapping(value="/products/{id}/updateProduct",method=RequestMethod.POST)
 	public ModelAndView updateProduct(@ModelAttribute("product") Product product) {
 		System.out.println("Inside update Product -- "+product.getId());

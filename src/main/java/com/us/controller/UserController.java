@@ -38,7 +38,7 @@ public class UserController {
 			model.addObject("loggedInUser",user);
 		}else {
 			model.setViewName("login");
-			model.setViewName("login1");
+			//model.setViewName("login1");
 			model.addObject("error","UserName or Password Incorrect");
 			
 		}
